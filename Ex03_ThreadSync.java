@@ -1,7 +1,7 @@
-public class ThreadCtrl extends Thread {
+public class Ex03_ThreadSync extends Thread {
    public static int amount = 0;
    public static void main(String[] args) {
-       ThreadCtrl thread = new ThreadCtrl();
+       Ex03_ThreadSync thread = new Ex03_ThreadSync();
        thread.start();
        int copyAmount = amount;
        System.out.println("Main: " + copyAmount);
